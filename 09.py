@@ -5,3 +5,7 @@ even_list = list(filter(lambda x: x %2 == 0, numbers_list))
 doubled_list = list(map(lambda x: x * 2, numbers_list))
 print(even_list)
 print(doubled_list)
+
+add = lambda x,y: x + y
+
+print(add(1,2))
